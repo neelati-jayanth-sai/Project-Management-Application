@@ -15,7 +15,7 @@ const connectDB=require('./config/db')
 
 const port = process.env.PORT || 5000;
 
-console.log("daad", process.env.MONGO_URI);
+
 
 
 connectDB()
